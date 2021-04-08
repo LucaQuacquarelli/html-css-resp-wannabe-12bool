@@ -1,0 +1,62 @@
+/* [class *= "col-"] {
+    background-color: lawngreen;
+    border: 1px solid black;
+} */
+
+.relative {
+    position: relative;
+}
+
+header {
+    margin-top: 80px;
+}
+
+.content {
+    width: 100%;
+    text-align: center;
+}
+
+.title {
+    padding: 15px 0;
+    text-align: center;
+}
+
+.content-sx > img {
+    width: 40%;
+}
+
+.content-dx > img {
+    width: 65%;
+}
+
+.content > h3 {
+    padding: 20px 0;
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  
+    header {
+        margin-top: 0;
+    }
+
+    header > .row {
+        background-color: #f2f2cd;
+    }
+
+    .content-dx {
+        margin-top: 20px;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    header {
+        margin-top: 0;
+    }
+    
+    header > .row {
+        background-color: #f2f2cd;
+    }
+}
