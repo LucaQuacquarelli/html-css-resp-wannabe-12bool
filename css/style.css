@@ -7,7 +7,7 @@
     position: relative;
 }
 
-header {
+header, main {
     margin-top: 80px;
 }
 
@@ -21,6 +21,17 @@ header {
     text-align: center;
 }
 
+.content > h3 {
+    padding: 20px 0;
+}
+
+main .content > img {
+    height: 180px;
+    margin-top: 15px;
+}
+
+/* /common */
+
 .content-sx > img {
     width: 40%;
 }
@@ -29,8 +40,8 @@ header {
     width: 65%;
 }
 
-.content > h3 {
-    padding: 20px 0;
+main > .row {
+    background-color: #f9f9f9;
 }
 
 /* Mobile */
@@ -47,6 +58,10 @@ header {
     .content-dx {
         margin-top: 20px;
     }
+
+    main .content {
+        padding: 10px
+    }
 }
 
 /* Tablet */
@@ -58,5 +73,9 @@ header {
     
     header > .row {
         background-color: #f2f2cd;
+    }
+
+    main .content {
+        padding: 10px
     }
 }
