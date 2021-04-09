@@ -1,8 +1,4 @@
 /* common */
-.relative {
-    position: relative;
-}
-
 main,
 footer {
     margin-top: 80px;
