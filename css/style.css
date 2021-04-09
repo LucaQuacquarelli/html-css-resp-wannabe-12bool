@@ -3,7 +3,6 @@
     position: relative;
 }
 
-header,
 main,
 footer {
     margin-top: 80px;
@@ -33,8 +32,8 @@ footer {
     width: 65%;
 }
 
-main > .row,
-footer > .row{
+main,
+footer {
     background-color: #f9f9f9;
 }
 
@@ -67,8 +66,8 @@ footer .content > hr {
         margin-top: 0;
     }
 
-    header > .row,
-    footer > .row {
+    header,
+    footer {
         background-color: #f2f2cd;
     }
 
@@ -92,8 +91,8 @@ footer .content > hr {
         margin-top: 0;
     }
     
-    header > .row,
-    footer > .row {
+    header,
+    footer {
         background-color: #f2f2cd;
     }
 
